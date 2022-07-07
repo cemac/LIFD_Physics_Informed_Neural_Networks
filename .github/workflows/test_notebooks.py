@@ -26,7 +26,7 @@ def _find_notebooks():
     )
 
     # Get just the notebooks from the git files
-    notebooks_files = [Path(fn) for fn in git_files if fn.endswith("CNN_Volcanic_deformation_test.ipynb")]
+    notebooks_files = [Path(fn) for fn in git_files if fn.endswith("PINNs_1DHeatEquationExample.ipynb")]
 
     # remove all notebooks that haven't been checked
     notebooks_files = [p for p in notebooks_files if p.parent.name != "unchecked"]
