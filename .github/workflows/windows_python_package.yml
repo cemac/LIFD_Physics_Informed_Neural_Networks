@@ -1,0 +1,33 @@
+name: Python Package using Conda
+on: [push]
+
+jobs:
+  test:
+    name: Test python ${{ matrix.python-version }} on ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+        python-version: [3.7]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+         submodules: recursive
+      - name: install mamba
+        uses: mamba-org/provision-with-micromamba@main
+        with:
+          environment-file: CNN_windows.yml
+          environment-name: CNN
+      - name: Install test packages
+        shell: bash -l {0}
+        run: |
+          pip install pytest nbconvert nbformat
+      - name: which python
+        shell: bash -l {0}
+        run: |
+          which python
+      - name: Test with pytest
+        shell: bash -l {0}
+        run: |
+          pytest .github/workflows/test_CNN_notebooks.py
