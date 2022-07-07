@@ -1,3 +1,6 @@
 [submodule "Physics_Informed_Neural_Networks/PINNs"]
 	path = Physics_Informed_Neural_Networks/PINNs
 	url = git@github.com:maziarraissi/PINNs.git
+[submodule "PINNs"]
+	path = PINNs
+	url = git@github.com:maziarraissi/PINNs.git
