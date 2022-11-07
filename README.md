@@ -10,7 +10,7 @@
 # Physics Informed Neural Networks
 
 
-[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_Physics_Informed_Neural_Networks/total.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_Physics_Informed_Neural_Networks.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
+[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases)  [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_Physics_Informed_Neural_Networks.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_Physics_Informed_Neural_Networks/total.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_Physics_Informed_Neural_Networks.svg)[![DOI](https://zenodo.org/badge/366734586.svg)](https://zenodo.org/badge/latestdoi/366734586)
 
 [![LIFD_Physics_Informed_Neural_Networks](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/actions/workflows/python-package-conda.yml)
 
@@ -30,10 +30,10 @@ If you are unfamiliar with some of the concepts covered in this tutorial it's re
 
 If you want a quick look at the contents inside the notebook before deciding to run it please view the pdfs generated (*note some HTML code not fully rendered*)
 
-* [PNNs 1D Heat Equation Example nonML](PNNs_1DHeatEquation_nonML.pdf)
-* [PNNs 1D Heat Equation Example](PNNs_1DHeatEquationExample.pdf)
-* [PNNs Navier Stokes example](PNNs_NavierStokesEquation_example.pdf)
-* [PNNs Navier Stokes Hidden Fluid Mechanics](PNNs_NavierStokes_HFM.md)
+* [PINNs 1D Heat Equation Example nonML](PINNs_1DHeatEquation_nonML.pdf)
+* [PINNs 1D Heat Equation Example](PINNs_1DHeatEquationExample.pdf)
+* [PINNs Navier Stokes example](PINNs_NavierStokesEquation_example.pdf)
+* [PINNs Navier Stokes Hidden Fluid Mechanics](PINNs_NavierStokes_HFM.md)
 
 ### Quick start
 
