@@ -32,8 +32,8 @@ If you want a quick look at the contents inside the notebook before deciding to 
 
 * [PINNs 1D Heat Equation Example nonML](PINNs_1DHeatEquation_nonML.pdf)
 * [PINNs 1D Heat Equation Example](PINNs_1DHeatEquationExample.pdf)
-* [PINNs Navier Stokes example](PINNs_NavierStokesEquation_example.pdf)
-* [PINNs Navier Stokes Hidden Fluid Mechanics](PINNs_NavierStokes_HFM.md)
+* [PINNs Navier Stokes example](PINNs_NavierStokes_example.pdf)
+* [PINNs Navier Stokes Hidden Fluid Mechanics](https://github.com/cemac/LIFD_Physics_Informed_Neural_Networks/blob/main/PINNs_NavierStokes_HFM.ipynb)
 
 ### Quick start
 
@@ -50,7 +50,7 @@ jupyter-notebook
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](../howtorun.md) and [jupyter_notebooks](../jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
 
 
 These notebooks require some additional data from the [PINNs](https://github.com/maziarraissi/PINNs) repository
